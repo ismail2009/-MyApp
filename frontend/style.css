@@ -3,15 +3,12 @@ html,body{
    margin: 0 auto;
 }
  body {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-wrap: wrap;*/
   font-style: normal;
   font-weight: normal;
   font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-  background-color: white;
-  background-image: linear-gradient(rgba(61, 252, 247, 0.19),
-  rgba(61, 252, 247, 0.19)),
-  url('./img/people-working-together-in-meeting.jpg');
+  background-image: url('./img/people-working-together-in-meeting.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,6 +22,8 @@ html,body{
 }
 .container_main {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .space{
   height: 15vh
